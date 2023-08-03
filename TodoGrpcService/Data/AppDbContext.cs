@@ -10,5 +10,5 @@ public class AppDbContext : DbContext
        
     }
 
-    DbSet<Todo> Todos => Set<Todo>();
+    public DbSet<Todo> Todos => Set<Todo>();
 }
